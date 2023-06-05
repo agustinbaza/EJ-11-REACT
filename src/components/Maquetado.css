@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.orden {
+  margin: 5% 15%;
+  border: solid 1px black;
+  height: 80%;
+  border-radius: 1em;
+}
+
+.ordenChico {
+  border: solid 1px black;
+  height: 130px;
+}
+
+.input {
+  border-radius: 1ch;
+  padding: 3% 10%;
+  margin-right: 3%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+div.row {
+  padding: 3%;
+}
+
+.card {
+  margin: 5% 0%;
+}
+
+.ordenBoton {
+  display: flex;
+  align-items: center;
+}
