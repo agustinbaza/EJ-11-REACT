@@ -15,7 +15,9 @@ Crear una aplicación web con react, que consuma la API provista por https://new
 
 ## COMENTARIOS EXTRA 📌
 
-En vez de nombrarse ListaNoticias como dice en el enunciado, en mi caso se llama Noticias.
+- En vez de nombrarse ListaNoticias en mi caso se llama "Noticias".
+- En vez de nombrarse Formulario en mi caso se llama "Maquetado".
+- Puse el titulo directamente en mi pagina "Maquetado", por no haber leido correctamente la consigna a tiempo, mil disculpas.
 
 ## Autor 🙋‍♂️
 - [Agustin Baza](https://github.com/agustinbaza)
