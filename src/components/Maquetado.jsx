@@ -15,7 +15,7 @@ const Maquetado = ({ consultarAPI, noticias }) => {
       <h1 className="text-center mt-4">Noticias</h1>
       <hr />
       <article className="orden">
-        <div className="d-flex justify-content-evenly align-items-center mt-5 mb-5">
+        <div className="d-flex justify-content-evenly align-items-center mt-5 mb-5 espaciado">
           <h2 className="">Buscar por categoría:</h2>
           <div className="ordenBoton">
             <form onSubmit={handleSubmit}>
@@ -34,6 +34,12 @@ const Maquetado = ({ consultarAPI, noticias }) => {
         <hr />
         <Noticias noticias={noticias} />
       </article>
+      <footer>
+        <p className="text-center">
+          {" "}
+          Creado por Agustin Baza - RollingCode School
+        </p>
+      </footer>
     </section>
   );
 };

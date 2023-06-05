@@ -38,3 +38,54 @@ div.row {
   display: flex;
   align-items: center;
 }
+
+footer {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  padding: 1%;
+}
+
+/* dispositivos small */
+
+@media all and (max-width: 767px) {
+  .orden {
+    margin: 5% 5%;
+    border: solid 1px black;
+    height: 80%;
+    border-radius: 1em;
+  }
+
+  .espaciado {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 5%;
+    margin-top: 15%;
+  }
+}
+
+/* dispositivos medium */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 2.5%;
+  }
+  .orden {
+    margin: 5% 5%;
+    border: solid 1px black;
+    height: 80%;
+    border-radius: 1em;
+  }
+}

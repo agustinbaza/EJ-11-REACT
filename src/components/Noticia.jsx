@@ -1,9 +1,9 @@
-import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import React from "react";
+import { Card, Button } from "react-bootstrap";
 
 const Noticia = ({ noticia }) => {
   return (
-    <Card className=''>
+    <Card className="">
       <Card.Img variant="top" src={noticia.urlToImage} />
       <Card.Body>
         <Card.Title>{noticia.title}</Card.Title>
@@ -17,4 +17,3 @@ const Noticia = ({ noticia }) => {
 };
 
 export default Noticia;
-
